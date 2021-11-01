@@ -1,0 +1,43 @@
+.contents{
+  margin: 25px 0;
+}
+
+.contents ol{
+  max-width: 90%;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.contents ul{
+  max-width: 90%;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.contens li{
+  line-height: 1.7;
+}
+
+.channel{
+  width: 200px;
+  background: linear-gradient(transparent 60%, #bdc6b7 40%);
+
+  font-size: 20px;
+}
+
+.btn-center{
+  text-align: center;
+}
+
+.back{
+ position: relative;
+ display: inline-block;
+ font-weight: bold;
+ padding: 0.5em 1em;
+ text-decoration: none;
+ border-left: solid 4px rgb(176, 148, 30);
+ border-right: solid 4px rgb(176, 148, 30);
+ color: #000000;
+ background: #bdc6b7;
+ transition: .4s;
+}

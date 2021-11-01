@@ -1,0 +1,39 @@
+.container{
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+body{
+  background-color: rgba(237, 220, 188, 0.5);
+}
+
+header{
+  position: relative;
+  background-image: url(../images/cafe.jpg);
+  background-size: cover;
+  opacity: 80%;
+}
+
+h2 {
+  position: relative;
+  padding: 0.5em;
+  background: rgb(238, 209, 63);
+  color: white;
+  display: inline-block;
+}
+
+h2::before {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 0;
+  border: none;
+  border-bottom: solid 15px transparent;
+  border-right: solid 20px rgb(176, 148, 30);
+}
+
+footer{
+  margin-top: 30px;
+  text-align: center;
+}
